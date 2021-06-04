@@ -22,6 +22,10 @@ int main()
     for (i = 0; i < LED_Count; i += 2) {
         LED[i]->on();
     }
+
+    for (i = 2; i < LED_Count; i += 4) {
+        LED[i]->off();
+    }
   
 }
 
