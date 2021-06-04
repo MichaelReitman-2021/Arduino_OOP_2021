@@ -7,7 +7,7 @@
 int main()
 {
     // create a number of LEDs
-    const int LED_Count = 10;
+    const int LED_Count = 12;
     LED_Simulated* LED[LED_Count];
 
     cout << "Starting LED test, Count = " << LED_Count << endl;
