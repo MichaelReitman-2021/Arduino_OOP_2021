@@ -104,11 +104,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="LED_Interface.cpp" />
+    <ClCompile Include="LED_Real.cpp" />
     <ClCompile Include="LED_Simulated.cpp" />
     <ClCompile Include="Simulate Embedded.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LED_Interface.h" />
+    <ClInclude Include="LED_Real.h" />
     <ClInclude Include="LED_Simulated.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

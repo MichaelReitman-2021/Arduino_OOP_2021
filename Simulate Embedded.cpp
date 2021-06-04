@@ -2,19 +2,19 @@
 //
 
 #include <iostream>
-#include "LED_Simulated.h"
+#include "LED_Real.h"
 
 int main()
 {
     // create a number of LEDs
     const int LED_Count = 10;
-    LED_Simulated* LED[LED_Count];
+    LED_Real* LED[LED_Count];
 
     cout << "Starting LED test, Count = " << LED_Count << endl;
 
     int i;
     for (i = 0; i < LED_Count; i++) {
-        LED[i] = new LED_Simulated("LED_" + std::to_string(i), i);
+        LED[i] = new LED_Real("LED_" + std::to_string(i), i);
     }
  
     cout << "Created " << LED_Count << " LED objects" << endl;

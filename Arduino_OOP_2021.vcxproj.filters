@@ -24,12 +24,18 @@
     <ClCompile Include="Simulate Embedded.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LED_Real.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LED_Interface.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="LED_Simulated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LED_Real.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
