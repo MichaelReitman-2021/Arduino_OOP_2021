@@ -8,7 +8,7 @@ int main()
 {
     // create a number of LEDs
     const int LED_Count = 10;
-    LED_Real* LED[LED_Count];
+    LED_Interface* LED[LED_Count];
 
     cout << "Starting LED test, Count = " << LED_Count << endl;
 

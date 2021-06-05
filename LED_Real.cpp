@@ -15,14 +15,14 @@ LED_Real::LED_Real(string name, int id) : LED_Interface(name, id)
 
 	// LED_Trace_real(this->my_name, "on pin " + std::to_string(this->my_id));
 
-	cout << "pinMode( " << pin << " , OUTPUT); " << endl; // set the real LED pin to write 
+	cout << "pinMode(" << pin << ", OUTPUT); " << endl; // set the real LED pin to write 
 
 }
 
 void LED_Real::on()
 {
 	// LED_Trace_real(this->my_name, "on");
-	cout << "digitalWrite(" << this->my_id << " , HIGH); "  << endl; // real LEDS get turned on when their pin is set to HIGH
+	cout << "digitalWrite(" << this->my_id << ", HIGH); "  << endl; // real LEDS get turned on when their pin is set to HIGH
 }
 
 void LED_Real::off()
